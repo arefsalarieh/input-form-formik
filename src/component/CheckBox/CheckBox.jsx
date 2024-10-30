@@ -219,6 +219,8 @@ const CheckBox = () => {
             })}
           </div>
         </div>
+
+        
       </div>
 
       {/* <Formik initialValues={{ toggle: true,checked: [],}} onSubmit={(values)=>console.log(values)}>
