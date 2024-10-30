@@ -23,6 +23,7 @@ const SelectOption = () => {
         <div className="w-1/2">
           {/* simple */}
           <div className="flex mt-10 gap-5 bg-gray-200 p-4  ">
+          simple
             <select className="select  max-w-xs" onChange={handleSimple}>
               <option disabled selected>
                 Pick your favorite tech
@@ -37,6 +38,7 @@ const SelectOption = () => {
 
           {/* simple form */}
           <div className="flex mt-10 gap-5 bg-gray-200 p-4  ">
+          simple form 
             <form onSubmit={handleSimpleForm} className="flex gap-5">
               <select className="select  max-w-xs" onChange={handleSimple}>
                 <option disabled selected>
@@ -54,6 +56,7 @@ const SelectOption = () => {
 
           {/* Formik with its own Form and Field */}
           <div className="flex mt-10 gap-5 bg-gray-200 p-4  ">
+            Formik + own
             <Formik initialValues={{ tech: "" }} onSubmit={handleFormik}>
               <Form className="flex gap-5">
                 <Field as="select" name="tech" className="bg-white p-4 px-10">
@@ -73,6 +76,7 @@ const SelectOption = () => {
 
           {/* Formik with otehr form and input */}
           <div className="flex mt-10 gap-5 bg-gray-200 p-4  ">
+            Formik + other
             <Formik initialValues={{ tech: "" }} onSubmit={handleFormik}>
               {({ values, handleChange, handleSubmit, handleBlur }) => (
                 <form onSubmit={handleSubmit} className="flex gap-5">
