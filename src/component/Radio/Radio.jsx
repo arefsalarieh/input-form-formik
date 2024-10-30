@@ -96,18 +96,16 @@ const Radio = () => {
 
           {/* Formik with otehr form and input */}
           <div className="mt-10  bg-gray-200 p-4 ">
-            <h1>Formik with its own Form and Field</h1>
+            <h1>Formik with otehr form and input</h1>
 
-            <Formik
-              initialValues={{ gender: "" }}
-              onSubmit={handleFormik}
-              
-            >
+            <Formik initialValues={{ gender: "" }} onSubmit={handleFormik}>
               {({ values, handleSubmit, handleChange }) => (
                 <form onSubmit={handleSubmit}>
-                  
-
-                  <div role="group" aria-labelledby="my-radio-group"  className='flex gap-5'>
+                  <div
+                    role="group"
+                    aria-labelledby="my-radio-group"
+                    className="flex gap-5"
+                  >
                     <label>
                       <input
                         type="radio"
@@ -129,10 +127,13 @@ const Radio = () => {
                     </label>
                     <div>gender : {values.gender}</div>
 
-                    <button type='submit' className='bg-blue-400 w-fit mx-auto p-2'>click</button>
-
+                    <button
+                      type="submit"
+                      className="bg-blue-400 w-fit mx-auto p-2"
+                    >
+                      click
+                    </button>
                   </div>
-
                 </form>
               )}
             </Formik>
