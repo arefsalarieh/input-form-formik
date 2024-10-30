@@ -57,7 +57,7 @@ const Text = () => {
           </div>
 
 
-            {/* Formik with its own Form anf Field */}
+            {/* Formik with its own Form and Field */}
           <div className='bg-gray-200 mt-10 p-6'>
               <h1>Formik with its own Form anf Field</h1>
               
