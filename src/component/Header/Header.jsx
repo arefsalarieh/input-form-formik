@@ -8,7 +8,7 @@ const Header = () => {
         <NavLink to='/Radio' className={({isActive})=>{return isActive ? 'bg-[aqua] p-4 rounded-xl' : 'p-4 rounded-xl'}}>Radio</NavLink>
         <NavLink to='/CheckBox' className={({isActive})=>{return isActive ? 'bg-[aqua] p-4 rounded-xl' : 'p-4 rounded-xl'}}>CheckBox</NavLink>
         <NavLink to='/SelectOption' className={({isActive})=>{return isActive ? 'bg-[aqua] p-4 rounded-xl' : 'p-4 rounded-xl'}}>SelectOption</NavLink>        
-           
+        <NavLink to='/FileInput' className={({isActive})=>{return isActive ? 'bg-[aqua] p-4 rounded-xl' : 'p-4 rounded-xl'}}>FileInput</NavLink>            
     </div>
   )
 }
