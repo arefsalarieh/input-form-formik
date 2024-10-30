@@ -8,7 +8,6 @@ const Radio = () => {
   return (
     <div>
         <h1>Radio</h1>
-        
 {/* 
         <Formik initialValues={{picked: ''}}  onSubmit={(values)=>console.log(values)}>
             {({ values , handleSubmit , handleChange }) => (
